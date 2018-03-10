@@ -22,3 +22,8 @@ For an example of how to use Aeneas, we refer interested programmer to the [Aene
 For a real-world use case example of Aeneas, we refer interested developers to our modified [MapsWithMe application](https://github.com/pl-aeneas/aeneas-mapsme).
 
 
+Technical
+------------
+
+[We provide a technical document, detailing experiments and results](https://github.com/pl-aeneas/aeneas/blob/master/supp.pdf). 
+
