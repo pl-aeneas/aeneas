@@ -139,6 +139,14 @@ public class AeneasMachine implements Runnable {
 
   public Reward _reward;
 
+  // User-facing API 
+  public AeneasMachine(
+      StochasticPolicyType stochasticPolicyType, 
+      Knob[] inputKnobs, 
+      Reward reward) {
+    this(inputKnobs, new Recording[]{}, null, stochasticPolicyType, SamplingPolicy.SAMPLE_ALL, reward, Experiment.MACHINE, false);
+  }
+
   public AeneasMachine(Knob[] inputKnobs, 
       Recording[] recordings,
       Constraint constraint,
