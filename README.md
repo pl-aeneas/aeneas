@@ -23,8 +23,7 @@ For a real-world use case example of Aeneas, we refer interested developers to o
 
 Technical
 ------------
-
-[We provide a technical document, detailing experiments and results](https://github.com/pl-aeneas/aeneas/blob/master/supp.pdf). 
+[We provide a technical document, detailing raw data and results for our experiments](https://github.com/pl-aeneas/aeneas/blob/master/supp.pdf). For further details, please consult the technical document along with the [MapsWithMe application](https://github.com/pl-aeneas/aeneas-mapsme) repository.
 
 # Specification
 
@@ -88,5 +87,3 @@ One may read the value of a knob using the ```read``` method.
 ```
 int setting = machine.read(update);
 ```
-
-
